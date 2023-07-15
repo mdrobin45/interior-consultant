@@ -1,0 +1,39 @@
+/* Breakpoint <=576 */
+@media screen and (max-width: 576px) {
+   .mob-header {
+      display: block;
+   }
+   .desktop-header {
+      display: none;
+   }
+   .hero-main-wrapper {
+      flex-direction: column;
+   }
+}
+/* Breakpoint <=768 */
+@media screen and (max-width: 768px) {
+   .hero-main-wrapper {
+      flex-direction: column;
+      padding: 0;
+   }
+   .author-box-wrapper {
+      right: 20%;
+   }
+   .hero-right-wrapper {
+      justify-content: center;
+      padding-top: 3rem;
+   }
+   .hero-left-wrapper h2 {
+      font-size: 26px;
+   }
+   .author-box-wrapper h2 {
+      font-size: 15px;
+   }
+   .hero-right-wrapper img {
+      width: 100%;
+   }
+   footer {
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+   }
+}

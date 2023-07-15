@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap");
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Open Sans", sans-serif;
+   color: #333;
+}
+
+/* Global style */
+.container {
+   width: 90%;
+   margin: auto;
+}
+.active-nav {
+   font-weight: bold;
+   text-decoration: underline;
+}
+p {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.6;
+}
+img {
+   width: 100%;
+}
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+/* Header */
+.desktop-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav-wrapper > nav > a {
+   margin: 0 16px;
+}
+.logo {
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   border: 2px solid;
+   padding: 7px;
+   font-family: "Playfair Display", serif;
+}
+
+/* Hero section */
+.hero-main-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10rem 0;
+}
+.hero-left-wrapper h2 {
+   font-size: 52px;
+   font-weight: 700;
+   font-family: "Playfair Display", serif;
+}
+.hero-left-wrapper a {
+   background: #333;
+   color: #fff;
+   padding: 12px;
+   display: inline-block;
+}
+.author-image {
+   width: 50px;
+}
+.author-image img {
+   border-radius: 50%;
+}
+.author-box {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+}
+.author-info {
+   padding-left: 10px;
+}
+.author-info p {
+   margin: 0;
+}
+.author-info p:first-child {
+   font-weight: bold;
+   font-size: 18px;
+}
+.hero-right-wrapper {
+   position: relative;
+   display: flex;
+   justify-content: end;
+}
+.author-box-wrapper {
+   display: flex;
+   flex-direction: column;
+   background: #fff;
+   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   width: 54%;
+   position: absolute;
+   border-radius: 16px;
+   right: 10%;
+   bottom: -19%;
+}
+.author-box-wrapper h2 {
+   font-weight: 700;
+   font-family: "Playfair Display", serif;
+}
+.hero-right-wrapper img {
+   width: 80%;
+   border-radius: 10px;
+}
+
+/* Footer */
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem 0;
+}
+.fa-brands.fa-github {
+   font-size: 24px;
+}
+
+/* Mobile header */
+.mobile-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+i.fa-solid.fa-bars {
+   font-size: 30px;
+}
+.dropdown-active {
+   right: 0;
+}
+.m-nav-wrapper {
+   background: #333;
+   padding: 16px 0;
+   height: 100vh;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   right: -36rem;
+   z-index: 1;
+   display: none;
+}
+.m-nav-wrapper > nav > a {
+   display: block;
+   padding: 10px 0;
+   color: #fff;
+   font-size: 20px;
+}
+.mob-header {
+   display: none;
+}
